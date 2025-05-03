@@ -1,0 +1,10 @@
+github_users:
+  - ciodar
+
+repo_description_lines_max: 2
+
+github_repos:
+  - ciodar/UniversalAttribution
+  - ciodar/cultural-heritage-diffaug
+  - ciodar/deep-compression
+  - ciodar/deep-labs

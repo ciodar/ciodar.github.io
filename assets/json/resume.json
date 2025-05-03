@@ -1,0 +1,147 @@
+{
+    "basics": {
+      "name": "Dario Cioni",
+      "label": "AI Developer, AI Researcher",
+      "image": "",
+      "email": "dario.cioni@edu.unifi.it",
+      "phone": "",
+      "url": "",
+      "summary": "",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Milan",
+        "countryCode": "IT",
+        "region": "Lombardy"
+      },
+      "profiles": [
+        {
+          "network": "Twitter",
+          "username": "cioni-dario",
+          "url": "https://x.com/cioni_dario"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "AI Center of Excellence, PwC Italy",
+        "position": "AI Developer",
+        "url": "https://www.pwc.com/it/en/services/innovation-center-of-excellence.html",
+        "startDate": "2024-07-15",
+        "endDate": "",
+        "summary": "",
+        "highlights": ["Generative AI", "Large Language Models", "Retrieval-Augmented Generation"]
+      },
+      {
+        "name": "MultiMedia and Vision Lab, Queen Mary University of London",
+        "position": "Visiting Research Assistant",
+        "url": "https://www.qmul.ac.uk/eecs/research/research-centres-and-groups/multimedia--vision-mmv-research-group/",
+        "startDate": "2023-10-01",
+        "endDate": "2024-06-31",
+        "summary": "",
+        "highlights": ["Deepfake Detection", "Vision Foundation Models"]
+      },
+      {
+        "name": "Hermes Trade S.r.l.",
+        "position": "IT Consultant, Backend Developer",
+        "url": "",
+        "startDate": "2015-08-01",
+        "endDate": "2021-09-01",
+        "summary": "",
+        "highlights": []
+      }
+    ],
+    // "volunteer": [
+    //   {
+    //   }
+    // ],
+    "education": [
+      {
+        "institution": "University of Florence, Florence, Italy",
+        "location": "Florence, Italy",
+        "url": "https://www.unifi.it/en",
+        "area": "Artificial Intelligence",
+        "studyType": "M.Sc. in Artificial Intelligence",
+        "startDate": "2021-09-01",
+        "endDate": "2024-04-14",
+        "score": "110",
+        "courses": ["Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "Reinforcement Learning"]
+      },
+      {
+        "institution": "University of Florence, Florence, Italy",
+        "location": "Florence, Italy",
+        "url": "https://www.unifi.it/en",
+        "area": "Computer Science",
+        "studyType": "Bachelor in Computer Science",
+        "startDate": "2015-09-01",
+        "endDate": "2021-04-01",
+        "score": "110",
+        "courses": ["Algorithms", "Data Structures", "Computer Architecture", "Operating Systems", "Databases"]
+      }
+    ],
+    // "awards": [
+    //   {
+    //   }
+    // ],
+    // "certificates": [
+    //     {
+    //     }
+    // ],
+    // "publications": [
+    // ],
+    // "skills": [
+    //   {
+    //     "name": "Artificial Intelligence",
+    //     "level": "Master",
+    //     "icon": "fa-solid fa-hashtag",
+    //     "keywords": [
+    //       "Computer Vision",
+    //       "Multimodal Learning",
+    //       "Natural Language Processing",
+    //       "Machine Learning",
+    //       "Deep Learning"
+    //     ]
+    //   }
+    // ],
+    "languages": [
+      {
+        "language": "Italian",
+        "fluency": "Native speaker",
+        "icon": ""
+      },
+      {
+        "language": "English",
+        "fluency": "Fluent",
+        "icon": ""
+      }
+    ],
+    "interests": [
+      {
+        "name": "Artificial Intelligence",
+        "icon": "fa-solid fa-tag",
+        "keywords": [
+            "Computer Vision",
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Machine Learning",
+            "Deep Learning"
+        ]
+      }
+    ]
+    // ,"references": [
+    //   {
+    //     "name": "Professor John Doe",
+    //     "icon": "fa-solid fa-laptop",
+    //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    //   },
+    //   {
+    //     "name": "Professor John Doe",
+    //     "icon": "fa-solid fa-thumbtack",
+    //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    //   }
+    // ],
+    // "projects": [
+    //   {
+    //   }
+    // ]
+  }
