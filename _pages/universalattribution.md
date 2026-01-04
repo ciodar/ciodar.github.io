@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+---
+layout: none
+title: Are CLIP features all you need for Universal Synthetic Image Origin Attribution?
+permalink: /UniversalAttribution/
+nav: false
+baseurl: ""
+---
 <html>
 <head>
   <meta charset="utf-8">
@@ -23,19 +29,17 @@
   <meta name="keywords" content="Open Set Origin Attribution,Diffusion Models,Deepfake Detection,Open Set Recognition">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
   <title>Are CLIP features all you need for Universal Synthetic Image Origin Attribution?</title>
   <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="{{ 'static/css/bulma.min.css' }}">
+  <link rel="stylesheet" href="{{ 'static/css/bulma-carousel.min.css' }}">
+  <link rel="stylesheet" href="{{ 'static/css/bulma-slider.min.css' }}">
+  <link rel="stylesheet" href="{{ 'static/css/fontawesome.all.min.css' }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="{{ 'static/css/index.css' }}">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
