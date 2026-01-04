@@ -1,147 +1,210 @@
 {
-    "basics": {
-      "name": "Dario Cioni",
-      "label": "AI Developer, AI Researcher",
-      "image": "",
-      "email": "dario.cioni@edu.unifi.it",
-      "phone": "",
-      "url": "",
-      "summary": "",
-      "location": {
-        "address": "",
-        "postalCode": "",
-        "city": "Milan",
-        "countryCode": "IT",
-        "region": "Lombardy"
-      },
-      "profiles": [
-        {
-          "network": "Twitter",
-          "username": "cioni-dario",
-          "url": "https://x.com/cioni_dario"
-        }
-      ]
+  "basics": {
+    "name": "Dario Cioni",
+    "label": "AI Researcher, Machine Learning Engineer",
+    "image": "",
+    "email": "dario.cioni@edu.unifi.it",
+    "phone": "",
+    "url": "https://ciodar.github.io",
+    "summary": "Senior AI Engineer and Computer Vision researcher focused on multimodal generative models (video/audio), efficient post-training methods (distillation/quantization), and trustworthy synthetic media attribution, bridging research and production across academia and industry.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Milan",
+      "countryCode": "IT",
+      "region": "Lombardy"
     },
-    "work": [
+    "profiles": [
       {
-        "name": "AI Center of Excellence, PwC Italy",
-        "position": "AI Developer",
-        "url": "https://www.pwc.com/it/en/services/innovation-center-of-excellence.html",
-        "startDate": "2024-07-15",
-        "endDate": "",
-        "summary": "",
-        "highlights": ["Generative AI", "Large Language Models", "Retrieval-Augmented Generation"]
+        "network": "GitHub",
+        "username": "ciodar",
+        "url": "https://github.com/ciodar"
       },
       {
-        "name": "MultiMedia and Vision Lab, Queen Mary University of London",
-        "position": "Visiting Research Assistant",
-        "url": "https://www.qmul.ac.uk/eecs/research/research-centres-and-groups/multimedia--vision-mmv-research-group/",
-        "startDate": "2023-10-01",
-        "endDate": "2024-06-31",
-        "summary": "",
-        "highlights": ["Deepfake Detection", "Vision Foundation Models"]
+        "network": "LinkedIn",
+        "username": "dario-cioni",
+        "url": "https://www.linkedin.com/in/dario-cioni/"
       },
       {
-        "name": "Hermes Trade S.r.l.",
-        "position": "IT Consultant, Backend Developer",
-        "url": "",
-        "startDate": "2015-08-01",
-        "endDate": "2021-09-01",
-        "summary": "",
-        "highlights": []
-      }
-    ],
-    // "volunteer": [
-    //   {
-    //   }
-    // ],
-    "education": [
-      {
-        "institution": "University of Florence, Florence, Italy",
-        "location": "Florence, Italy",
-        "url": "https://www.unifi.it/en",
-        "area": "Artificial Intelligence",
-        "studyType": "M.Sc. in Artificial Intelligence",
-        "startDate": "2021-09-01",
-        "endDate": "2024-04-14",
-        "score": "110",
-        "courses": ["Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "Reinforcement Learning"]
-      },
-      {
-        "institution": "University of Florence, Florence, Italy",
-        "location": "Florence, Italy",
-        "url": "https://www.unifi.it/en",
-        "area": "Computer Science",
-        "studyType": "Bachelor in Computer Science",
-        "startDate": "2015-09-01",
-        "endDate": "2021-04-01",
-        "score": "110",
-        "courses": ["Algorithms", "Data Structures", "Computer Architecture", "Operating Systems", "Databases"]
-      }
-    ],
-    // "awards": [
-    //   {
-    //   }
-    // ],
-    // "certificates": [
-    //     {
-    //     }
-    // ],
-    // "publications": [
-    // ],
-    // "skills": [
-    //   {
-    //     "name": "Artificial Intelligence",
-    //     "level": "Master",
-    //     "icon": "fa-solid fa-hashtag",
-    //     "keywords": [
-    //       "Computer Vision",
-    //       "Multimodal Learning",
-    //       "Natural Language Processing",
-    //       "Machine Learning",
-    //       "Deep Learning"
-    //     ]
-    //   }
-    // ],
-    "languages": [
-      {
-        "language": "Italian",
-        "fluency": "Native speaker",
-        "icon": ""
-      },
-      {
-        "language": "English",
-        "fluency": "Fluent",
-        "icon": ""
-      }
-    ],
-    "interests": [
-      {
-        "name": "Artificial Intelligence",
-        "icon": "fa-solid fa-tag",
-        "keywords": [
-            "Computer Vision",
-            "Multimodal Learning",
-            "Natural Language Processing",
-            "Machine Learning",
-            "Deep Learning"
-        ]
+        "network": "Twitter",
+        "username": "cioni-dario",
+        "url": "https://x.com/cioni_dario"
       }
     ]
-    // ,"references": [
-    //   {
-    //     "name": "Professor John Doe",
-    //     "icon": "fa-solid fa-laptop",
-    //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    //   },
-    //   {
-    //     "name": "Professor John Doe",
-    //     "icon": "fa-solid fa-thumbtack",
-    //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    //   }
-    // ],
-    // "projects": [
-    //   {
-    //   }
-    // ]
-  }
+  },
+  "work": [
+    {
+      "name": "PwC Italy - AI Center of Excellence",
+      "position": "Senior AI Engineer",
+      "url": "https://www.pwc.com/it/en/services/innovation-center-of-excellence.html",
+      "startDate": "2024-07-01",
+      "endDate": "",
+      "location": "Milan, Italy",
+      "summary": "Building generative AI solutions and teaching AI programs for clients and partners.",
+      "highlights": [
+        "Led a small team delivering an open-source DiT-based video generation suite, optimizing inference with post-training quantization and step distillation.",
+        "Co-designed and taught AI training modules for PwC Italy and university partners, including hands-on labs for executives and graduate students.",
+        "Developed and improved retrieval-augmented generation pipelines, including efficiency tuning, retrieval and generation improvements, and an internal LLM evaluation pipeline."
+      ]
+    },
+    {
+      "name": "Queen Mary University of London - Centre for Multimodal AI",
+      "position": "Visiting Research Assistant (Master's Thesis)",
+      "url": "https://www.qmul.ac.uk/eecs/research/research-centres-and-groups/multimedia--vision-mmv-research-group/",
+      "startDate": "2023-10-01",
+      "endDate": "2024-02-29",
+      "location": "London, UK",
+      "summary": "Research on forensic techniques for synthetic image detection and origin attribution.",
+      "highlights": [
+        "Master's thesis \"Forensic Techniques for Synthetic Image Detection and Attribution.\"",
+        "Co-authored \"Are CLIP Features all you need for Universal Synthetic Image Origin Attribution?\" earning Best Workshop Paper at ECCV 2024.",
+        "Ideated, implemented, and trained all experiments; conducted literature review and paper writing."
+      ]
+    },
+    {
+      "name": "University of Florence - Media Integration and Communication Center",
+      "position": "Research Assistant",
+      "url": "https://www.micc.unifi.it/",
+      "startDate": "2023-02-01",
+      "endDate": "2023-07-31",
+      "location": "Florence, Italy",
+      "summary": "Vision-language research on diffusion-based augmentation for cultural heritage datasets.",
+      "highlights": [
+        "Published \"Diffusion Based Augmentation for Captioning and Retrieval in Cultural Heritage\" (ICCVW 2023).",
+        "Built a diffusion-based multimodal augmentation pipeline improving image captioning and multimodal retrieval.",
+        "Developed and trained experiments and contributed to paper writing."
+      ]
+    },
+    {
+      "name": "University of Florence",
+      "position": "Research Assistant (Bachelor's Thesis)",
+      "url": "https://www.unifi.it/en",
+      "startDate": "2020-09-01",
+      "endDate": "2021-04-01",
+      "location": "Florence, Italy",
+      "summary": "Crowd counting research using domain-adapted CNNs on thermal imagery.",
+      "highlights": [
+        "Thesis \"Convolutional Neural Networks for Object counting in thermal imagery.\"",
+        "Leveraged domain-adapted YOLOv3 features to improve privacy-preserving crowd counting and cross-domain generalization."
+      ]
+    },
+    {
+      "name": "Hermes Trade S.r.l.",
+      "position": "Product Owner & Software Developer",
+      "url": "",
+      "startDate": "2015-08-01",
+      "endDate": "2021-09-01",
+      "location": "Florence, Italy",
+      "summary": "Student worker leading ERP/CRM development across the software development lifecycle.",
+      "highlights": [
+        "Designed and led the development of an ERP/CRM application as backend developer and data engineer.",
+        "Managed full software development lifecycle while working part-time during studies."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Florence",
+      "location": "Florence, Italy",
+      "url": "https://www.unifi.it/en",
+      "area": "Artificial Intelligence",
+      "studyType": "M.Sc. in Artificial Intelligence",
+      "startDate": "2021-09-01",
+      "endDate": "2024-04-01",
+      "score": "110/110 with Honours",
+      "courses": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "institution": "University of Florence",
+      "location": "Florence, Italy",
+      "url": "https://www.unifi.it/en",
+      "area": "Computer Science Engineering",
+      "studyType": "Bachelor in Computer Science Engineering",
+      "startDate": "2015-09-01",
+      "endDate": "2021-04-01",
+      "score": "110/110",
+      "courses": [
+        "Algorithms",
+        "Data Structures",
+        "Computer Architecture",
+        "Operating Systems",
+        "Databases"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Workshop Paper Award, TWYN @ ECCV 2024",
+      "date": "2024",
+      "awarder": "ECCV 2024",
+      "summary": "Awarded for \"Are CLIP Features all you need for Universal Synthetic Image Origin Attribution?\""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Are CLIP Features all you need for Universal Synthetic Image Origin Attribution?",
+      "publisher": "ECCV Workshops",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": "Best Workshop Paper Award at TWYN @ ECCV 2024; employs foundation model features for open-set synthetic image origin attribution."
+    },
+    {
+      "name": "Diffusion Based Augmentation for Captioning and Retrieval in Cultural Heritage",
+      "publisher": "ICCV Workshops",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": "Diffusion-based multimodal augmentation pipeline improving cultural heritage captioning and retrieval."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Deep Compression",
+      "description": "Paper replication implementing pruning, quantization, and Huffman coding for neural network compression.",
+      "url": "https://github.com/ciodar/deep-compression",
+      "type": "Paper replication",
+      "highlights": [
+        "Reproduced the three-step compression pipeline on ImageNet subset and MNIST."
+      ]
+    },
+    {
+      "name": "Deep Learning Applications",
+      "description": "Collection of paper replications across computer vision, NLP, and adversarial machine learning.",
+      "url": "https://github.com/ciodar/deep-labs",
+      "type": "Project collection",
+      "highlights": [
+        "Built end-to-end implementations of research papers for coursework and experimentation."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Computer Vision",
+        "Multimodal Learning",
+        "Natural Language Processing",
+        "Machine Learning",
+        "Deep Learning"
+      ]
+    }
+  ]
+}
