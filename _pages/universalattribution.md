@@ -1,9 +1,9 @@
 ---
-layout: none
+layout: noheader
 title: Are CLIP features all you need for Universal Synthetic Image Origin Attribution?
 permalink: /UniversalAttribution/
 nav: false
-baseurl: ""
+toc: false
 ---
 <html>
 <head>
@@ -103,15 +103,15 @@ baseurl: ""
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
-                      <!-- <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                    <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2408.09153.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span> -->
+                    </span>
 
                     <!-- Supplementary PDF link -->
                     <!-- <span class="link-block">
