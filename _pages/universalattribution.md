@@ -1,156 +1,86 @@
 ---
-layout: none
+layout: noheader
 title: Are CLIP features all you need for Universal Synthetic Image Origin Attribution?
 permalink: /UniversalAttribution/
 nav: false
-baseurl: ""
+toc: false
 ---
-<html>
-<head>
-  <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="">
-  <meta property="og:title" content=""/>
-  <meta property="og:description" content=""/>
-  <meta property="og:url" content=""/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="" />
-  <meta property="og:image:width" content=""/>
-  <meta property="og:image:height" content=""/>
 
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Are CLIP features all you need for Universal
+            Synthetic Image Origin Attribution?</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">
+              <a href="https://ciodar.github.io" target="_blank">Dario Cioni</a><sup>1, 3</sup>,</span>
+            <span class="author-block">
+              <a href="https://chi0tzp.github.io" target="_blank">Christos Tzelepis</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="http://www.micc.unifi.it/seidenari" target="_blank">Lorenzo Seidenari</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.eecs.qmul.ac.uk/~ioannisp/" target="_blank">Ioannis Patras</a><sup>3</sup>
+            </span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Florence, <sup>2</sup>City, University of London, <sup>3</sup>Queen Mary, University of London<br>TWYN @ ECCV 2024</span>
+            <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+          </div>
 
-  <meta name="twitter:title" content="">
-  <meta name="twitter:description" content="Are CLIP features all you need for Universal Synthetic Image Origin Attribution?">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png"> -->
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="Open Set Origin Attribution,Diffusion Models,Deepfake Detection,Open Set Recognition">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Are CLIP features all you need for Universal Synthetic Image Origin Attribution?</title>
-  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
-
-  <link rel="stylesheet" href="{{ 'static/css/bulma.min.css' }}">
-  <link rel="stylesheet" href="{{ 'static/css/bulma-carousel.min.css' }}">
-  <link rel="stylesheet" href="{{ 'static/css/bulma-slider.min.css' }}">
-  <link rel="stylesheet" href="{{ 'static/css/fontawesome.all.min.css' }}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="{{ 'static/css/index.css' }}">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
-
-  <!-- The loading of KaTeX is deferred to speed up page rendering -->
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
-
-  <!-- To automatically render math in text elements, include the auto-render extension: -->
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
-      onload="renderMathInElement(document.body, );"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          // customised options
-          // • auto-render specific keys, e.g.:
-          delimiters: [
-              {left: '$$', right: '$$', display: true},
-              {left: '$', right: '$', display: false},
-              {left: '\\(', right: '\\)', display: false},
-              {left: '\\[', right: '\\]', display: true}
-          ],
-          // • rendering keys, e.g.:
-          throwOnError : false
-        });
-    });
-</script>
-</head>
-<body>
-
-
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Are CLIP features all you need for Universal
-              Synthetic Image Origin Attribution?</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://ciodar.github.io" target="_blank">Dario Cioni</a><sup>1, 3</sup>,</span>
-              <span class="author-block">
-                <a href="https://chi0tzp.github.io" target="_blank">Christos Tzelepis</a><sup>2</sup>,</span>
-              <span class="author-block">
-                <a href="http://www.micc.unifi.it/seidenari" target="_blank">Lorenzo Seidenari</a><sup>1</sup>,</span>
-              <span class="author-block">
-                <a href="https://www.eecs.qmul.ac.uk/~ioannisp/" target="_blank">Ioannis Patras</a><sup>3</sup>
-              </span>
-            </div>
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>University of Florence, <sup>2</sup>City, University of London, <sup>3</sup>Queen Mary, University of London<br>TWYN @ ECCV 2024</span>
-              <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
-            </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <!-- <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span> -->
-
-                    <!-- Supplementary PDF link -->
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                <div class="column has-text-centered">
+                  <div class="publication-links">
+                       <!-- Arxiv PDF link -->
+                  <span class="link-block">
+                      <a href="https://arxiv.org/pdf/2408.09153.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>Paper</span>
                     </a>
-                  </span> -->
+                  </span>
 
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/ciodar/UniversalAttribution" target="_blank"
+                  <!-- Supplementary PDF link -->
+                  <!-- <span class="link-block">
+                    <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fas fa-file-pdf"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Supplementary</span>
                   </a>
-                </span>
+                </span> -->
 
-                <!-- ArXiv abstract Link -->
+                <!-- Github link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2408.09153" target="_blank"
+                  <a href="https://github.com/ciodar/UniversalAttribution" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fab fa-github"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Code</span>
                 </a>
               </span>
-            </div>
+
+              <!-- ArXiv abstract Link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2408.09153" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="ai ai-arxiv"></i>
+                </span>
+                <span>arXiv</span>
+              </a>
+            </span>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </section>
 
 
@@ -193,7 +123,7 @@ baseurl: ""
     <div class="content has-text-justified">
       <p>
         We address the problem of synthetic image attribution in the most general setting possible: <br>
-        Using real images (from a set $\mathcal{R}$), synthetic images generated by a set of known generative models $\mathcal{O}_\mathcal{K}=\{\mathcal{M}_\mathcal{K}^1,\ldots,\mathcal{M}_\mathcal{K}^{N_{\mathcal{O}_\mathcal{K}}}\}$, and synthetic images generated by a set of unknown generative models $\mathcal{O}_\mathcal{U}=\{\mathcal{M}_\mathcal{U}^1,\ldots,\mathcal{M}_\mathcal{U}^{N_{\mathcal{O}_\mathcal{U}}}\}$, we optimize a classifier to assign images to either a known model from $\mathcal{O}_\mathcal{K}$ or ``reject'' such assignment, classifying the images as <i>synthetic-and-unknown</i> ($y_u$).
+        Using real images (from a set $\mathcal{R}$), synthetic images generated by a set of known generative models $\mathcal{O}_\mathcal{K}=\{\mathcal{M}_\mathcal{K}^1,\ldots,\mathcal{M}_\mathcal{K}^{N_{\mathcal{O}_\mathcal{K}}}\}$, and synthetic images generated by a set of unknown generative models $\mathcal{O}_\mathcal{U}=\{\mathcal{M}_\mathcal{U}^1,\ldots,\mathcal{M}_\mathcal{U}^{N_{\mathcal{O}_\mathcal{U}}}\}$, we optimize a classifier to assign images to either a known model from $\mathcal{O}_\mathcal{K}$ or "reject" such assignment, classifying the images as <i>synthetic-and-unknown</i> ($y_u$).
       </p>
       <p>
         Motivated by the generality and expressiveness of the representations of modern vision foundation models, we propose to employ the Vision Transformer-based encoder of a foundation model and extract intermediate features.
@@ -273,7 +203,7 @@ baseurl: ""
             This research was supported by the EU's Horizon 2020 programme H2020-951911 <a href="https://www.ai4media.eu/">AI4Media</a> project.
           </p> 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             We thank the authors for sharing the templates.
           </p>
 
@@ -282,12 +212,3 @@ baseurl: ""
     </div>
   </div>
 </footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
